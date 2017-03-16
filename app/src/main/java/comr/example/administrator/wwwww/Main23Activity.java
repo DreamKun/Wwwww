@@ -1,11 +1,10 @@
 package comr.example.administrator.wwwww;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.support.v7.app.AppCompatActivity;
 
 public class Main23Activity extends AppCompatActivity {
-        private TextView textView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
