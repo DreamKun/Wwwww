@@ -99,7 +99,6 @@ public class MainActivity extends BaseActivity {
         b6.setOnClickListener(this);
         b7.setOnClickListener(this);
 
-        Button button = (Button) view.findViewById(R.id.ce_bu);
 
     }
 }
