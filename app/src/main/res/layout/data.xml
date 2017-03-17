@@ -7,13 +7,13 @@
     android:layout_height="match_parent">
 
    <FrameLayout
-       android:id="@+id/main_fl"
+       android:id="@+id/data_fl"
        android:layout_width="match_parent"
        android:layout_height="match_parent">
 
    </FrameLayout>
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/main_fab"
+        android:id="@+id/data_fab"
         android:src="@drawable/ewq"
         app:rippleColor="#7083A3"
         android:layout_width="wrap_content"

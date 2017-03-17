@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/ce_back"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+        <com.facebook.drawee.view.SimpleDraweeView
+          android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:id="@+id/ce_photo"
+            fresco:roundAsCircle="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/ce_b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="工程进度"
+        />
+    <Button
+        android:id="@+id/ce_b2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="订单查询"
+        />
+    <Button
+        android:id="@+id/ce_b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="客服热线"
+        />
+
+    <Button
+        android:id="@+id/ce_b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="装修日志"
+        />
+    <Button
+        android:id="@+id/ce_b5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="项目通讯录"
+        />
+    <Button
+        android:id="@+id/ce_b6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="工作交互屏"
+        />
+    <Button
+        android:id="@+id/ce_b7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="装修课堂收藏"
+        />
+    </LinearLayout>
+</ScrollView>

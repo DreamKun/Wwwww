@@ -4,6 +4,8 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
 
+import com.facebook.drawee.backends.pipeline.Fresco;
+
 /**
  * 自定义Application
  * 
@@ -34,6 +36,7 @@ public class BaseApplication extends Application {
 		
 		//3. 获取主线程id
 		mainThreadId = android.os.Process.myTid();
+		Fresco.initialize(context);
 	}
 
 	public static Context getContext() {
